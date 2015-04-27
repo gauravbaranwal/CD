@@ -1,0 +1,57 @@
+<!doctype html>
+<html >
+<head>
+ 
+  <title>coupondunia coupon filter</title>
+  <link rel="stylesheet" type="text/css" media="all" href="css/task.css">
+   <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="js/task.js"></script>
+ 
+
+</head>
+<body>
+	<div id="work">
+		<div>
+				<img src="img/coupondunia.png" alt="coupondunia logo" class="cimage" height="55" width = "240">
+		</div>
+		<h1> Basic coupon selection and filtering </h1>
+	
+		<div id="div1">
+			<span> coupon type : 
+				<select id="coupontype"class="mydropdown">
+					<option value="-1" >none</option>
+					<option  value="1">Deal</option>
+					<option  value="0" >Coupon</option>
+				</select>
+			</span>
+			<span>  &nbsp;&nbsp;Stores: <input type="text" id="store"  class ="inputbox">
+			</span>
+			<span> &nbsp;&nbsp; Categories :
+				<select id="category" class="mydropdown">
+					<option value="-1" >none </option>
+					<option >Appliances</option>
+					<option  >Automotive</option>
+					<option  >Beauty & Health</option>
+					<option  >Books & Stationery</option>
+					<option  >Cameras & Accessories</option>
+					<option >Education & Learning</option>
+					<option  >Fashion</option>
+					<option  >Entertainment</option>
+					<option  >Home Furnishing & Decor</option>
+				</select>
+			</span>
+			<span>
+				<a id="gobtn" class="bigblue" >Go</a>
+			</span>
+
+		</div>
+		<div id="result">
+		</div>
+		<div id="nextPrevious">
+			<button id="previousbtn" class="bigblue" > previous</button>
+			<button id="nextbtn" class="bigblue">>>next</button>
+
+		</div>
+	</div>
+</body>
+</html>
