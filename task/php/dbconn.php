@@ -21,6 +21,7 @@ private function __construct(){
 	else{
 		//echo "<br> connection established <br>" ;
 	}
+	//echo smething
 
 }
 
