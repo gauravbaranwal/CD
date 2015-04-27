@@ -1,5 +1,3 @@
 read me
 
-read me now
- haha
- nn
+editod a few stuff
